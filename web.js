@@ -1,9 +1,8 @@
 
 var fs = require('fs');
-
 var express = require('express');
-
 var app = express.createServer(express.logger());
+var buffer = new buffer ();
 
 app.get('/', function(request, response) {
   //response.send('Hello World 2!');
